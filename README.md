@@ -1,2 +1,2 @@
 # PricesTracker
-Tracking prices from amazon products
+Gathering information from different websites such as product names and product prices.
