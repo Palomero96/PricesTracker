@@ -2,7 +2,7 @@ import os
 
 import pandas as pd
 
-from scrap import scrap
+from controllers.scrap import scrap
 
 __csv_dir = 'csv/'
 __products_file = 'csv/products.csv'

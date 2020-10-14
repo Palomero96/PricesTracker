@@ -1,6 +1,6 @@
-from scrap.amazon import scrap_amazon
-from scrap.mediamarkt import scrap_mediamarkt
-from scrap.pccomponentes import scrap_pccomponentes
+from .amazon import scrap_amazon
+from .mediamarkt import scrap_mediamarkt
+from .pccomponentes import scrap_pccomponentes
 
 __services = {
 	'amazon.es': scrap_amazon,

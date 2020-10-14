@@ -2,7 +2,7 @@ import requests
 
 from datetime import date
 
-from scrap.common import parse_page
+from .common import parse_page
 
 def scrap_pccomponentes(url):
 	def find_name(page):

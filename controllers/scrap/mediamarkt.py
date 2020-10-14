@@ -2,11 +2,11 @@ import requests
 
 from datetime import date
 
-from scrap.common import parse_page
+from .common import parse_page
 
-def scrap_amazon(url):
+def scrap_mediamarkt(url):
 	def find_name(page):
-		name = page.find('span', id='productTitle')
+		name = page.find('h1', itemprop='name')
 
 		if name is not None:
 			name = name.get_text()
@@ -14,22 +14,22 @@ def scrap_amazon(url):
 		return name
 
 	def find_price(page):
-		price = page.find('span', id='priceblock_ourprice')
+		price = page.find('meta', itemprop='price')
 
 		if price is not None:
-			price = price.get_text()
+			price = price['content']
 
 		return price
 
 	page_fields = parse_page(url, fields=[
 		('name', find_name),
 		('price', find_price)
-	], parser='lxml')
+	])
 
 	return {
 		'name': page_fields['name'],
 		'kind': '',
-		'shop': 'Amazon',
+		'shop': 'Mediamarkt',
 		'url': url,
 		'price': page_fields['price'],
 		'date': date.today().strftime('yyy-mm-dd')
