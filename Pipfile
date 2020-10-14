@@ -13,6 +13,7 @@ plotly = "*"
 python-dotenv = "*"
 numpy = "*"
 dotmap = "*"
+dash-bootstrap-components = "*"
 
 [dev-packages]
 

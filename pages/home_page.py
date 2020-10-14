@@ -1,17 +1,13 @@
-from dash_html_components import (
-  Div,
-  P
-)
-
 from app import app
-
+from dash_bootstrap_components import Container
+from dash_html_components import H1
 from dotmap import DotMap as dot
 
 home_page = dot({
   'main': [
-    Div([
-      P('Home')
+    Container([
+      H1('Home')
     ],
-    id='app-main')
+    id='app-main-home')
   ]
 })

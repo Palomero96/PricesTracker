@@ -1,39 +1,21 @@
 # -*- coding: utf-8 -*-
 from dotenv import load_dotenv
+
 load_dotenv()
 
-import os
 import argparse
+import os
+
 import dash
-
-from dash_core_components import (
-  Location,
-  Link
-)
-
-from dash_html_components import (
-  Div,
-  Header,
-  Main,
-  Aside,
-  Footer,
-  Nav,
-  H1,
-  P,
-  Span
-)
-
-from dash.dependencies import (
-  Input as DInput,
-  Output as DOutput
-)
-
-from app import app
-
+from dash.dependencies import Input as DInput
+from dash.dependencies import Output as DOutput
+from dash_core_components import Link, Location
+from dash_html_components import (H1, Aside, Div, Footer, Header, Main, Nav, P,
+                                  Span)
 from dotmap import DotMap as dot
 
-from components.navbar import NavBar
-
+from app import app
+from components.navbar import Navbar
 from pages.home_page import home_page
 
 #
@@ -62,7 +44,7 @@ routes = dot({
 #
 app.layout = Div([
   Location(id='url', refresh=True),
-  NavBar(routes),
+  Navbar(routes),
   Main(P('Loading...', style={ 'text-align': 'center' }), id='app-main')
 ], id='app-root')
 

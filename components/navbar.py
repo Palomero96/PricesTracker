@@ -1,17 +1,15 @@
-from dash_core_components import (
-  Link
-)
-
-from dash_html_components import (
-  Header,
-  Nav,
-  H1
-)
-
+from dash_bootstrap_components import NavbarSimple, NavItem, NavLink
 from dotmap import DotMap as dot
 
-def NavBar(routes: dot = dot()):
-  return Header([
-    H1('PriceTracker'),
-    Nav([Link(v.nav, href=k) for k, v in routes.items()])
-  ], id='app-navbar')
+
+def Navbar(routes: dot = dot()):
+  children = [NavItem(
+    NavLink(value.nav, href=key, active=True)
+  ) for key, value in routes.items()]
+
+  return NavbarSimple(children,
+    brand="PriceTracker",
+    brand_href="#",
+    color="primary",
+    dark=True,
+    id='app-navbar')
