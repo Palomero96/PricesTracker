@@ -34,5 +34,5 @@ def scrap_pccomponentes(url):
 		'shop': 'PC Componentes',
 		'url': url,
 		'price': page_fields['price'],
-		'date': date.today().strftime('yyy-mm-dd')
+		'date': date.today().strftime("%Y-%m-%d")
 	}

@@ -32,5 +32,5 @@ def scrap_mediamarkt(url):
 		'shop': 'Mediamarkt',
 		'url': url,
 		'price': page_fields['price'],
-		'date': date.today().strftime('yyy-mm-dd')
+		'date': date.today().strftime("%Y-%m-%d")
 	}
