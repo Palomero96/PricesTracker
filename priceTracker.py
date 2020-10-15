@@ -18,7 +18,7 @@ def main():
 		prices_df = pd.DataFrame(
 			columns=['name', 'kind', 'shop', 'url', 'price', 'date']
 		)
-
+	prices_df.set_index(['url','date'])
 	# Get dataframe to read products to search; exit if not exists
 	if os.path.isfile(__products_file):
 		products_df = pd.read_csv(__products_file)
@@ -49,6 +49,7 @@ def main():
 			prices_df = prices_df.append(info, ignore_index=True)
 
 	# Save prices
+	prices_df = prices_df.drop_duplicates()
 	prices_df.to_csv(__prices_file, index=False)
 
 if __name__ == '__main__':
