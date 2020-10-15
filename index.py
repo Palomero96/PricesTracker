@@ -17,6 +17,7 @@ from dotmap import DotMap as dot
 from app import app
 from components.navbar import Navbar
 from pages.home_page import home_page
+from pages.table_page import table_page
 
 #
 # App Routes
@@ -26,6 +27,11 @@ routes = dot({
     'layout': home_page,
     'nav': 'Home',
     'title': 'Home'
+  }),
+  '/table': dot({
+    'layout': table_page,
+    'nav': 'Table',
+    'title': 'Table'
   })
   # '/maps/heat': dot({
   #   'layout': heat_maps_page,
@@ -51,23 +57,13 @@ app.layout = Div([
 @app.callback(DOutput('app-main', 'children'),
               [DInput('url', 'pathname')])
 def display_main(pathname):
-    return routes[pathname].layout.main
+    return routes[pathname].layout
 
-@app.callback([DOutput('app-toolbar-content', 'children'),
-               DOutput('app-toolbar', 'className'),],
-              [DInput('url', 'pathname')])
-def display_toolbar(pathname):
-  children = routes[pathname].layout.toolbar
-  className = ""
-
-  if len(children) > 0:
-    className = "show"
-
-  return children, className
 
 #
 # Args
 #
+
 argparser = argparse.ArgumentParser()
 
 argparser.add_argument(
