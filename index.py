@@ -18,6 +18,9 @@ from app import app
 from components.navbar import Navbar
 from pages.home_page import home_page
 from pages.table_page import table_page
+from pages.bars_page import bars_page
+from pages.evolution_page import evolution_page
+from pages.comp_page import comp_page
 
 #
 # App Routes
@@ -32,6 +35,21 @@ routes = dot({
     'layout': table_page,
     'nav': 'Table',
     'title': 'Table'
+  }),
+  '/bars': dot({
+    'layout': bars_page,
+    'nav': 'Bars',
+    'title': 'Bars'
+  }),
+    '/evolution': dot({
+    'layout': evolution_page,
+    'nav': 'Evolution',
+    'title': 'Evolution'
+  }),
+     '/comparator': dot({
+    'layout': comp_page,
+    'nav': 'Comparator',
+    'title': 'Comparator'
   })
   # '/maps/heat': dot({
   #   'layout': heat_maps_page,
