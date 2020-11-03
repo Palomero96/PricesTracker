@@ -83,24 +83,24 @@
 "cpu","https://www.amazon.es/Intel-Core-i7-10700K-Procesador-Casquillo/dp/B0883P8CNM/ref=sr_1_16?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=procesador+intel&qid=1602070578&sr=8-16"
 "cpu","https://www.amazon.es/Intel-Core-i9-10900X-LGA2066-X299/dp/B07YP69HTM/ref=sr_1_28?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=procesador+intel&qid=1602070578&sr=8-28"
 "cpu","https://www.amazon.es/Procesador-Intel-i9-10900X-n%C3%BAcleos-LGA2066/dp/B07ZQN8V6S/ref=sr_1_32?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=procesador+intel&qid=1602070578&sr=8-32"
-"gpu", "https://www.amazon.es/Gigabyte-Technology-GeForce-2060-GV-N2060OC-6GD/dp/B07MJGCPW5/ref=sr_1_1?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=2060&qid=1603729661&sr=8-1"
-"gpu", "https://www.amazon.es/MSI-RTX-2060-Ventus-XS/dp/B07MVZM78T/ref=sr_1_4?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=2060&qid=1603729661&sr=8-4"
-"gpu", "https://www.amazon.es/MSI-GeForce-RTX-2060-Gaming/dp/B07TZ55K6J/ref=sr_1_6?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=2060&qid=1603729661&sr=8-6"
-"gpu", "https://www.amazon.es/ASUS-TUF-RTX2060-O6G-GAMING-GeForce-2060-GDDR6/dp/B07P4CJZBY/ref=sr_1_8?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=2060&qid=1603729661&sr=8-8"
-"gpu", "https://www.amazon.es/Evga-GeForce-2070-Ultra-Gaming/dp/B07JC5FXVR/ref=sr_1_12?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=2060&qid=1603729661&sr=8-12"
-"gpu", "https://www.amazon.es/ASUS-Turbo-GeForce-Super-EVO/dp/B07VS34KJS/ref=sr_1_9?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=2060&qid=1603729661&sr=8-9"
-"gpu", "https://www.amazon.es/KFA2-26NRL7HPX7OK-Tarjeta-gr%C3%A1fica-GeForce/dp/B07M85G6PD/ref=sr_1_14?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=2060&qid=1603729661&sr=8-14"
-"gpu", "https://www.amazon.es/EVGA-GeForce-2060-Super-Gaming/dp/B07TWY9XZ4/ref=sr_1_19?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=2060&qid=1603729661&sr=8-19"
-"gpu", "https://www.amazon.es/Gigabyte-GeForce-Super-Gaming-Tarjeta/dp/B07WZ6FWPK/ref=sr_1_1?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=2070&qid=1603733296&sr=8-1"
-"gpu", "https://www.amazon.es/ASUS-Dual-GeForce-Super-GDDR6/dp/B07V7HPFT6/ref=sr_1_2?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=2070&qid=1603733296&sr=8-2"
-"gpu", "https://www.amazon.es/GeForce-RTX-2070-Ventus-GP/dp/B0817726L8/ref=sr_1_3?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=2070&qid=1603733296&sr=8-3"
-"gpu", "https://www.amazon.es/Gigabyte-RTX-2070-Windforce-PCI/dp/B07JJ5LLQN/ref=sr_1_4?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=2070&qid=1603733296&sr=8-4"
-"gpu", "https://www.amazon.es/MSI-RTX2080S-Gaming-GDDR6-USB-C/dp/B07VGM29BZ/ref=sr_1_2?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=2080&qid=1603733425&sr=8-2"
-"gpu", "https://www.amazon.es/Tarjeta-gr%C3%A1fica-EVGA-GeForce-Gaming/dp/B07VKPGGR6/ref=sr_1_4?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=2080&qid=1603733425&sr=8-4"
-"gpu", "https://www.amazon.es/ASUS-Strix-GeForce-Super-GDDR6/dp/B07VN6D5JB/ref=sr_1_8?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=2080&qid=1603733425&sr=8-8"
-"gpu", "https://www.amazon.es/ASUS-ROG-Strix-GeForce-2080/dp/B07HNMT91C/ref=sr_1_12?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=2080&qid=1603733425&sr=8-12"
-"gpu", "https://www.amazon.es/EVGA-11G-P4-2487-KR-Tarjeta-gr%C3%A1fica-GeForce/dp/B07K6H583G/ref=sr_1_16?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=2080&qid=1603733425&sr=8-16"
-"gpu", "https://www.amazon.es/EVGA-GeForce-Hybrid-Blackplate-08G-P4-2184-KR/dp/B07NCVS8K7/ref=sr_1_13?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=2080&qid=1603733425&sr=8-13"
+"gpu", https://www.amazon.es/Gigabyte-Technology-GeForce-2060-GV-N2060OC-6GD/dp/B07MJGCPW5/ref=sr_1_1?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=2060&qid=1603729661&sr=8-1
+"gpu", https://www.amazon.es/MSI-RTX-2060-Ventus-XS/dp/B07MVZM78T/ref=sr_1_4?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=2060&qid=1603729661&sr=8-4
+"gpu", https://www.amazon.es/MSI-GeForce-RTX-2060-Gaming/dp/B07TZ55K6J/ref=sr_1_6?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=2060&qid=1603729661&sr=8-6
+"gpu", https://www.amazon.es/ASUS-TUF-RTX2060-O6G-GAMING-GeForce-2060-GDDR6/dp/B07P4CJZBY/ref=sr_1_8?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=2060&qid=1603729661&sr=8-8
+"gpu", https://www.amazon.es/Evga-GeForce-2070-Ultra-Gaming/dp/B07JC5FXVR/ref=sr_1_12?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=2060&qid=1603729661&sr=8-12
+"gpu", https://www.amazon.es/ASUS-Turbo-GeForce-Super-EVO/dp/B07VS34KJS/ref=sr_1_9?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=2060&qid=1603729661&sr=8-9
+"gpu", https://www.amazon.es/KFA2-26NRL7HPX7OK-Tarjeta-gr%C3%A1fica-GeForce/dp/B07M85G6PD/ref=sr_1_14?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=2060&qid=1603729661&sr=8-14
+"gpu", https://www.amazon.es/EVGA-GeForce-2060-Super-Gaming/dp/B07TWY9XZ4/ref=sr_1_19?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=2060&qid=1603729661&sr=8-19
+"gpu", https://www.amazon.es/Gigabyte-GeForce-Super-Gaming-Tarjeta/dp/B07WZ6FWPK/ref=sr_1_1?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=2070&qid=1603733296&sr=8-1
+"gpu", https://www.amazon.es/ASUS-Dual-GeForce-Super-GDDR6/dp/B07V7HPFT6/ref=sr_1_2?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=2070&qid=1603733296&sr=8-2
+"gpu", https://www.amazon.es/GeForce-RTX-2070-Ventus-GP/dp/B0817726L8/ref=sr_1_3?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=2070&qid=1603733296&sr=8-3
+"gpu", https://www.amazon.es/Gigabyte-RTX-2070-Windforce-PCI/dp/B07JJ5LLQN/ref=sr_1_4?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=2070&qid=1603733296&sr=8-4
+"gpu", https://www.amazon.es/MSI-RTX2080S-Gaming-GDDR6-USB-C/dp/B07VGM29BZ/ref=sr_1_2?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=2080&qid=1603733425&sr=8-2
+"gpu", https://www.amazon.es/Tarjeta-gr%C3%A1fica-EVGA-GeForce-Gaming/dp/B07VKPGGR6/ref=sr_1_4?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=2080&qid=1603733425&sr=8-4
+"gpu", https://www.amazon.es/ASUS-Strix-GeForce-Super-GDDR6/dp/B07VN6D5JB/ref=sr_1_8?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=2080&qid=1603733425&sr=8-8
+"gpu", https://www.amazon.es/ASUS-ROG-Strix-GeForce-2080/dp/B07HNMT91C/ref=sr_1_12?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=2080&qid=1603733425&sr=8-12
+"gpu", https://www.amazon.es/EVGA-11G-P4-2487-KR-Tarjeta-gr%C3%A1fica-GeForce/dp/B07K6H583G/ref=sr_1_16?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=2080&qid=1603733425&sr=8-16
+"gpu", https://www.amazon.es/EVGA-GeForce-Hybrid-Blackplate-08G-P4-2184-KR/dp/B07NCVS8K7/ref=sr_1_13?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=2080&qid=1603733425&sr=8-13
 "laptop","https://www.mediamarkt.es/es/product/_port%C3%A1til-gaming-msi-prestige-15-15-6-fhd-intel%C2%AE-core%E2%84%A2-i7-10710u-16gb-512-512-gb-gtx1650-w10h-plata-1485804.html"
 "laptop","https://www.pccomponentes.com/msi-prestige-15-a10sc-044xes-intel-core-i7-10710u-16gb-512gb-ssd-gtx-1650-156"
 "laptop","https://www.pccomponentes.com/msi-prestige-15-a10sc-293xes-intel-core-i7-10710u-32gb-1tb-ssd-gtx-1650-156"

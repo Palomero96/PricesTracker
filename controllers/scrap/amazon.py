@@ -18,6 +18,7 @@ def scrap_amazon(url):
 
 		if price is not None:
 			price = price.get_text()
+			price = price.replace(".","")
 			price = price.replace(",",".")
 			
 		return price
